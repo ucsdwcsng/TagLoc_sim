@@ -1,0 +1,16 @@
+test_filenames
+/home/roshan/work/tagloc/DeepakSimulation/ReflectionModel/datasets/dataset_2dgauss_1.mat
+train_filenames
+/home/roshan/work/tagloc/DeepakSimulation/ReflectionModel/datasets/dataset_2dgauss_2.mat
+/home/roshan/work/tagloc/DeepakSimulation/ReflectionModel/datasets/dataset_2dgauss_3.mat
+/home/roshan/work/tagloc/DeepakSimulation/ReflectionModel/datasets/dataset_2dgauss_4.mat
+/home/roshan/work/tagloc/DeepakSimulation/ReflectionModel/datasets/dataset_2dgauss_5.mat
+/home/roshan/work/tagloc/DeepakSimulation/ReflectionModel/datasets/dataset_2dgauss_6.mat
+result_dir
+/home/roshan/work/tagloc/DeepakSimulation/New_Res/Train2-6_test1_large
+sigma
+0.25
+model
+cnn0
+channels
+rel

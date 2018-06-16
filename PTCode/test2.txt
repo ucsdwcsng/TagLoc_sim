@@ -1,0 +1,16 @@
+test_filenames
+/home/roshan/work/tagloc/DeepakSimulation/ReflectionModel/datasets/dataset_GAN_1.mat
+train_filenames
+/home/roshan/work/tagloc/DeepakSimulation/ReflectionModel/datasets/dataset_GAN_2.mat
+/home/roshan/work/tagloc/DeepakSimulation/ReflectionModel/datasets/dataset_GAN_3.mat
+/home/roshan/work/tagloc/DeepakSimulation/ReflectionModel/datasets/dataset_GAN_4.mat
+/home/roshan/work/tagloc/DeepakSimulation/ReflectionModel/datasets/dataset_GAN_5.mat
+/home/roshan/work/tagloc/DeepakSimulation/ReflectionModel/datasets/dataset_GAN_6.mat
+result_dir
+/home/roshan/work/tagloc/DeepakSimulation/New_Res/Train2-6_test1_10ant
+sigma
+0.25
+model
+cnn0
+channels
+rel

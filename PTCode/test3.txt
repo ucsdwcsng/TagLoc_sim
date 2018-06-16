@@ -1,0 +1,16 @@
+test_filenames
+/home/roshan/work/tagloc/DeepakSimulation/ReflectionModel/datasets/crctd_dataset1_27_4_1.mat
+train_filenames
+/home/roshan/work/tagloc/DeepakSimulation/ReflectionModel/datasets/crctd_dataset1_27_4_2.mat
+/home/roshan/work/tagloc/DeepakSimulation/ReflectionModel/datasets/crctd_dataset1_27_4_3.mat
+/home/roshan/work/tagloc/DeepakSimulation/ReflectionModel/datasets/crctd_dataset1_27_4_4.mat
+/home/roshan/work/tagloc/DeepakSimulation/ReflectionModel/datasets/crctd_dataset1_27_4_5.mat
+/home/roshan/work/tagloc/DeepakSimulation/ReflectionModel/datasets/crctd_dataset1_27_4_6.mat
+result_dir
+/home/roshan/work/tagloc/DeepakSimulation/New_Res/Train2-6_test1_small
+sigma
+0.25
+model
+cnn0
+channels
+abs
