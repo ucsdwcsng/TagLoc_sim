@@ -1,0 +1,21 @@
+RefelctionMOdel/....
+    get_channel_env_deepak.m/generate_channels_env.m/generate_channels_envnew 
+    (uses get_channels_from_model.m/get_channels_from_model_edit.m):
+    generates the channels for the model defined in it using various load_model functions.
+        load_model.m:20x15m environments
+        load_model_edit.m:10x8m environments
+        load_model_esit1.m:5x4m environment
+        load_model_edit2.m: a different 5x4m environment with more antenna
+    genrate_datasets_channels_edit.m:
+    Generates features from the channel models created using the above functions, uses:
+        generate_features_abs_aoa.m/generate_features_new.m/generate_features_rel.m/generate_features.m:
+            To generate X-Y representative features from the channels measurements, Uses:
+            compute_multipath_profile2d_fast_edit.m: generate 2D AoA-ToF profile
+            convert_spotfi_to_2d.m: converts AoA-ToF to X-Y profile
+        get_gaussian_labels*.m: different files which would generate gaussian 
+            labels features for ground truth
+    error_improvement1.m: to see how better CNN predictions are over SpotFi's predictions
+PTCode/...
+    run_all_config_pt.sh: shell script to run the CNN using command line
+    run_pytorch.py: has PyTorch depndency to run the CNN with the given CNN model
+    test*.txt: some example config files
